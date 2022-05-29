@@ -24,6 +24,18 @@ html{
     font-size: 15px;
 }
 
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+}
+
 /* header */
 header{
     background-image: url('picture/header.jpg');
@@ -34,3 +46,12 @@ header{
     z-index: -1; /*resmimizi ön plana mı arka plana mı almak istiyoruz.Resmimizi arka plana alıp yazıyı ön plana almak istersek -1 */
     opacity: .7;
 }
+
+/* footer */
+footer{
+ min-height: 20rem;
+ width: auto;
+ background: #343a40;
+ padding-top: 3rem;
+}
+
