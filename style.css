@@ -15,8 +15,8 @@ project version:
 
 body{
     font-family: 'Crimson Text', serif; 
-    /* background: #000; */
-    color: black;
+    background: #f6f5f2;
+    color: #232221;
     position: relative;
 }
 
@@ -64,7 +64,7 @@ header{
     padding-top: 20rem;
     height: 40rem;
     z-index: -1; /*resmimizi ön plana mı arka plana mı almak istiyoruz.Resmimizi arka plana alıp yazıyı ön plana almak istersek -1 */
-    opacity: .7;
+    opacity: .9;
 }
 /* main */
 
