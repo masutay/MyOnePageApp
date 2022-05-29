@@ -3,3 +3,4 @@
 -modal yapısı
 
 --unicode ve ascii karakter ascii code
+--jumbotron bs5
