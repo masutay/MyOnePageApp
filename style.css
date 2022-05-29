@@ -23,3 +23,14 @@ body{
 html{
     font-size: 15px;
 }
+
+/* header */
+header{
+    background-image: url('picture/header.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 20rem;
+    height: 40rem;
+    z-index: -1; /*resmimizi ön plana mı arka plana mı almak istiyoruz.Resmimizi arka plana alıp yazıyı ön plana almak istersek -1 */
+    opacity: .7;
+}
