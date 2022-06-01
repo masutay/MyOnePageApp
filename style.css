@@ -84,7 +84,7 @@ header{
     max-height: 25rem!important;
 }
 
-#main_card_header_bottom h5,p{
+#main_card_header_bottom h5 p{
     color: black;
 }
 
@@ -96,6 +96,6 @@ footer{
  background: #343a40;
  padding-top: 3rem;
  text-align: center;
- color: white;
+ color: white!important;
 }
 
