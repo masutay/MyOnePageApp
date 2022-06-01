@@ -52,7 +52,9 @@
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
         <div class="container">
             <!-- logo -->
-            <a class="navbar-brand" href="index.html">LOGO</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="/picture/favicon-32x32.png" id="logo_id">
+            </a>
             <!-- button-toggler -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
                 aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,11 +78,14 @@
                             <a class="dropdown-item" href="#">Action 2</a>
                         </div>
                     </li>
-                </ul>
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#special_ability">Yetenekler</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#special_contact">İletişim</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-2 mt-2 mt-lg-0">
                     <li class="nav-item">
                         <button type="button" class="btn btn-primary btn-md" data-bs-toggle="modal"
                             data-bs-target="#login_register">
@@ -126,93 +131,109 @@
     <header>
         <div class="jumbotron text-white bg-dark" style="opacity: .9;">
             <div class="container" style="color: white;">
-                <h1>Eğitim Sayfamıza Hoşgeldiniz</h1>
+                <div class="p-5 text-center text-white bg-dark">
+                    <h1 class="mb-3">Eğitim Sayfamıza Hoşgeldiniz</h1>
+                    <h4 class="mb-3">HTML5-CSS3-RD-BOOTSTRAP</h4>
+                    <a href="" class="btn btn-primary">More...</a>
+                </div>
             </div>
         </div>
     </header>
     <!-- header end -->
 
     <!-- main start -->
-    <main>
+    <main class="mb-4">
         <!-- cards -->
-        <div class="container">        
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <p class="display-4 text-center text-uppercase m-4" >Ürünler</p>
-                <div class="row" id="main_card_header_bottom">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="/picture/1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <p class="display-4 text-center text-uppercase m-4">Ürünler</p>
+                    <div class="row" id="main_card_header_bottom">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="/picture/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="/picture/2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="/picture/3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="/picture/4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="/picture/2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
+
+                </div>
+                <div class="col-md-1"></div>
+
+                <!-- about_me -->
+                <div class="container " id="special_about_me">
+                    <div class="row">
+                        <p class="display-4 text-center text-uppercase m-4">hakkımızda</p>
+                        <div class="col-md-7">
+                            <img src="/picture/4.jpg" alt="" style="width: 40rem;">
                         </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="/picture/3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <img src="/picture/4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
+                        <div class="col-md-5">
+                            <p class="line-clamp16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                quisquam, possimus vero veniam ad qui eius quis consectetur id. Consequatur dolore
+                                inventore autem error veniam quisquam laboriosam earum ex? Quisquam.
+                                Laudantium reiciendis ea dolore beatae, doloribus fuga consequuntur error. Sit dolore ab
+                                ut omnis a laborum itaque doloremque. Laudantium qui amet animi dolorem incidunt maxime
+                                quia saepe mollitia nam. Corporis!
+                                Perferendis itaque recusandae molestiae nesciunt omnis atque adipisci soluta eum
+                                temporibus, distinctio sunt nisi possimus labore obcaecati dolore corporis harum
+                                exercitationem aut nulla ea. Voluptatem voluptates facilis similique dolorum unde.
+                                Voluptatum molestiae, fuga minima facere quod fugiat quos corrupti tempora maiores illum
+                                recusandae ipsum harum, inventore eveniet aliquam possimus incidunt ducimus ipsa?
+                                Ducimus repellat asperiores ipsam labore accusantium, veniam a.
+                            </p>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-md-1"></div>
-
-            <!-- about_me -->
-            <div class="container" id="special_about_me">
-                <div class="row">
-                    <p class="display-4 text-center text-uppercase m-4" >hakkımızda</p>
-                    <div class="col-md-7">
-                        <img src="/picture/4.jpg" alt="" style="width: 40rem;">
-                    </div>
-                    <div class="col-md-5">
-                        <p class="line-clamp16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quisquam, possimus vero veniam ad qui eius quis consectetur id. Consequatur dolore inventore autem error veniam quisquam laboriosam earum ex? Quisquam.
-                        Laudantium reiciendis ea dolore beatae, doloribus fuga consequuntur error. Sit dolore ab ut omnis a laborum itaque doloremque. Laudantium qui amet animi dolorem incidunt maxime quia saepe mollitia nam. Corporis!
-                        Perferendis itaque recusandae molestiae nesciunt omnis atque adipisci soluta eum temporibus, distinctio sunt nisi possimus labore obcaecati dolore corporis harum exercitationem aut nulla ea. Voluptatem voluptates facilis similique dolorum unde.
-                        Voluptatum molestiae, fuga minima facere quod fugiat quos corrupti tempora maiores illum recusandae ipsum harum, inventore eveniet aliquam possimus incidunt ducimus ipsa? Ducimus repellat asperiores ipsam labore accusantium, veniam a.
-                        </p>
-                    </div>
-                </div>          
-            </div>
-
         </div>
-    </div>
     </main>
     <!-- main end -->
 

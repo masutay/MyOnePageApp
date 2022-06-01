@@ -56,6 +56,17 @@ p{
     -webkit-box-orient: vertical;
     overflow:hidden;
 }
+/* nav */
+#logo_id{
+    width: 3rem;
+    border-style:outset;  
+    border-width: .3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 /* header */
 header{
     background-image: url('picture/header.jpg');
@@ -64,6 +75,7 @@ header{
     padding-top: 20rem;
     height: 40rem;
     z-index: -1; /*resmimizi ön plana mı arka plana mı almak istiyoruz.Resmimizi arka plana alıp yazıyı ön plana almak istersek -1 */
+    background-color: black!important;
     opacity: .9;
 }
 /* main */
