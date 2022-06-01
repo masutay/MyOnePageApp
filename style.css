@@ -76,7 +76,7 @@ header{
     height: 40rem;
     z-index: -1; /*resmimizi ön plana mı arka plana mı almak istiyoruz.Resmimizi arka plana alıp yazıyı ön plana almak istersek -1 */
     background-color: black!important;
-    opacity: .9;
+  
 }
 /* main */
 
@@ -95,5 +95,7 @@ footer{
  width: auto;
  background: #343a40;
  padding-top: 3rem;
+ text-align: center;
+ color: white;
 }
 
